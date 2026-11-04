@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
   <title>高鍋高校陸上競技部 全九州高校駅伝大会（沖縄開催）物販カンパのご案内 | 保護者会</title>
   <meta name="description" content="高鍋高校陸上競技部が36年ぶりに全九州高校駅伝大会（沖縄開催）に出場決定。6月の南九州大会に続く今年2度目の沖縄遠征・駅伝5人出場に向けた物販カンパのご案内ページです。">
   <style>
@@ -315,6 +316,27 @@
       padding-inline: var(--space-2);
       padding-block: 0.15rem;
       border-radius: var(--radius-sm);
+    }
+
+    .event-pill-label.deadline {
+      background-color: var(--color-semantic-error-dark);
+      color: var(--color-bg-base);
+    }
+
+    .deadline-banner {
+      display: inline-flex;
+      flex-wrap: wrap;
+      align-items: safe center;
+      justify-content: center;
+      gap: var(--space-2);
+      background-color: var(--color-semantic-error-bg);
+      color: var(--color-semantic-error-dark);
+      border: 2px solid var(--color-semantic-error-dark);
+      border-radius: var(--radius-md);
+      padding: var(--space-2) var(--space-3);
+      margin-block-end: var(--space-3);
+      font-weight: 800;
+      font-size: clamp(0.95rem, 0.9rem + 0.25vw, 1.0625rem);
     }
 
     .hero-cta-box {
@@ -1130,7 +1152,7 @@
   <!-- Top Header Banner -->
   <header>
     <div class="top-ribbon">
-      <span class="top-ribbon-badge">祝・36年ぶり快挙</span>高鍋高校 陸上競技部「全九州高校駅伝大会（沖縄開催）」応援物販カンパのご案内
+      <span class="top-ribbon-badge">祝・36年ぶり快挙</span>高鍋高校 陸上競技部「全九州高校駅伝大会（沖縄開催）」応援物販カンパのご案内【申込期限：11月13日(金)まで】
     </div>
     <nav class="page-nav" aria-label="ページ内メニュー">
       <div class="container">
@@ -1180,6 +1202,10 @@
               <span class="event-pill-label">開催地</span>
               <span>沖縄県 今帰仁村総合運動公園発着付帯コース</span>
             </div>
+            <div class="event-pill">
+              <span class="event-pill-label deadline">！申込期限</span>
+              <span style="color: var(--color-semantic-error-dark); background-color: transparent;">令和8年11月13日(金)まで</span>
+            </div>
           </div>
 
           <div class="hero-cta-box">
@@ -1187,6 +1213,12 @@
               日頃より高鍋高校陸上競技部の活動に対し、多大なるご理解とご支援をいただき誠にありがとうございます。<br>
               6月の南九州大会に続き、<strong>まさかの「駅伝で36年ぶり九州大会出場」＆「またしても沖縄開催」</strong>という嬉しい悲鳴の中、<strong>駅伝メンバー5名分</strong>の沖縄遠征費を工面するため、職場の皆様へ物販カンパのご案内です。
             </p>
+            <div>
+              <div class="deadline-banner">
+                <span aria-hidden="true">⏰</span>
+                <span>お申し込み期限：令和8年11月13日(金)まで</span>
+              </div>
+            </div>
             <div class="btn-group">
               <a href="https://forms.gle/XRg54qif5Lijc6YbA" target="_blank" rel="noopener noreferrer" class="btn-primary">
                 <span aria-hidden="true">📝</span>
@@ -1267,7 +1299,7 @@
                   </td>
                   <td class="current-col">
                     <span class="status-chip urgent">！ 軍資金がさらに必要</span>
-                    36年ぶりの快挙ですが、5人分の沖縄旅費工面のため物販カンパを実施中です。
+                    36年ぶりの快挙ですが、5人分の沖縄旅費工面のため<strong>11月13日(金)まで</strong>物販カンパを実施中です。
                   </td>
                 </tr>
               </tbody>
@@ -1527,9 +1559,9 @@
         <div class="flyer-showcase">
           <div>
             <div class="info-callout">
-              <strong style="display: block; margin-block-end: var(--space-2);">📌 お申し込みの流れ</strong>
+              <strong style="display: block; margin-block-end: var(--space-2);">📌 お申し込みの流れ（期限：令和8年11月13日(金)まで）</strong>
               <ol style="margin: 0; padding-inline-start: 1.25rem;">
-                <li>下の<strong>「Googleフォームで申し込む」</strong>ボタンからフォームを開きます。</li>
+                <li><strong>11月13日(金)まで</strong>に、下の<strong>「Googleフォームへ進む」</strong>ボタンからフォームを開きます。</li>
                 <li>ご希望の商品・数量（または寄付口数）を入力して送信してください。</li>
                 <li>代金のお支払い・商品の受け渡し時期は、別途職場にてご案内いたします。</li>
               </ol>
@@ -1583,6 +1615,7 @@
           <span class="sticky-label">選択中の合計目安：</span>
           <span class="sticky-amount" id="stickyTotal">0円</span>
           <span class="sticky-label" id="stickyCountBadge">（0点）</span>
+          <span class="status-chip urgent" style="margin-inline-start: var(--space-1);">⏰ 11/13(金)締切</span>
         </div>
         <div class="sticky-items-preview" id="stickyPreview">
           上の商品カードで「＋」を押すと合計金額を計算できます（そのままフォームへ進んでもOK！）
